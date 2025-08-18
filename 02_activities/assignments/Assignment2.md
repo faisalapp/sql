@@ -54,7 +54,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+In Type 1 (Overwrite), customer new address will be overwritten on old entry while in Type 2 (Retain history), new row will be inserted for new address with "time_stamp" field to indicate the latest address. We can also add field like "IsCurrent (Y/N)" here. 
 ```
 
 ***
